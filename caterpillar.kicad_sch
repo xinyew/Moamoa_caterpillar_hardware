@@ -5597,7 +5597,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 40.64 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -5922,7 +5922,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 238.76 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6089,7 +6089,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 220.98 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6572,7 +6572,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 44.45 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6819,7 +6819,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 213.36 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7341,7 +7341,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 17.78 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7900,7 +7900,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 138.43 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8383,7 +8383,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 238.76 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9518,7 +9518,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 24.13 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9685,7 +9685,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 137.16 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -9932,7 +9932,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 231.14 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10179,7 +10179,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 257.81 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10325,7 +10325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "max5419:21-0137_T833&plus_2_MXM-L"
+		(property "Footprint" "21-0137_T833+2_MXM"
 			(at 125.73 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10539,7 +10539,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 261.62 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11102,7 +11102,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 142.24 127 0)
 			(hide yes)
 			(show_name no)
@@ -11425,7 +11425,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 238.76 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11749,7 +11749,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 16.51 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12366,7 +12366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ASM330LHHTR:LGA-14L_2P5X3X0P83_STM"
+		(property "Footprint" "LGA-14L_2P5X3X0P83_STM"
 			(at 212.09 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12572,7 +12572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADP2503ACPZ_3_3_R7:CP_10_9_ADI"
+		(property "Footprint" "CP_10_9_ADI"
 			(at 48.26 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12681,7 +12681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STBB1_APUR:SON_B1-APUR_STM"
+		(property "Footprint" "SON_B1-APUR_STM"
 			(at 144.78 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12891,7 +12891,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 238.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -13214,7 +13214,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 238.76 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14030,7 +14030,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 125.73 175.26 0)
 			(hide yes)
 			(show_name no)

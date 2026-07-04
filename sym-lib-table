@@ -1,5 +1,6 @@
 (sym_lib_table
 	(version 7)
+	(lib (name "AN54LQ-P15") (type "KiCad") (uri "${KIPRJMOD}/library/AN54LQ-P15/AN54LQ-P15.kicad_sym") (options "") (descr "Raytac AN54LQ-P15 nRF54L15 BLE module"))
 	(lib (name "ASM330LHHTR") (type "KiCad") (uri "${KIPRJMOD}/library/ASM330LHHTR/ASM330LHHTR.kicad_sym") (options "") (descr "ST 6-axis IMU"))
 	(lib (name "max5419") (type "KiCad") (uri "${KIPRJMOD}/library/ul_max5419leta-T/ul_max5419leta-T.kicad_sym") (options "") (descr "Maxim MAX5419 digital potentiometer"))
 	(lib (name "STBB1_APUR") (type "KiCad") (uri "${KIPRJMOD}/library/STBB1_APUR/STBB1_APUR.kicad_sym") (options "") (descr "ST buck-boost DC-DC"))
