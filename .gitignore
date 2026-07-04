@@ -1,0 +1,51 @@
+# ---- KiCad ----
+
+# Per-user local project state (UI layout, last-opened panel, etc.)
+*.kicad_prl
+
+# Footprint info cache — regenerated automatically by KiCad
+fp-info-cache
+fp-info-cache*
+
+# Auto-backups
+*-backups/
+_autosave-*
+
+# Backup files created on save
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_sym-bak
+*.sch-bak
+*.pro-bak
+*.000
+
+# Lock files (created while a document is open)
+*.lck
+~*.lck
+
+# Netlist / cache byproducts
+*.net
+*-cache.lib
+
+# ---- Manufacturing / generated outputs ----
+# Uncomment if you regenerate these and don't want them tracked:
+# *.step
+# *.stp
+# *.zip
+# gerbers/
+# *-backups/
+
+# ---- OS cruft ----
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Editors ----
+.history/
+.vscode/
