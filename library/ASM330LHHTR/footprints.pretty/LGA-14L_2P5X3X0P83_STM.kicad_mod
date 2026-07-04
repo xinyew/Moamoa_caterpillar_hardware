@@ -136,4 +136,9 @@
   (pad "12" smd rect (at 0.499999 -0.9563) (size 0.351536 0.57658) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "13" smd rect (at 0 -0.9563) (size 0.351536 0.57658) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "14" smd rect (at -0.499999 -0.9563) (size 0.351536 0.57658) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (model "library/ASM330LHHTR/LGA-14L_2P5X3X0P83_STM.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

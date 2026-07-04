@@ -43,4 +43,9 @@
   (pad "9" smd rect (at 1.4224 -0.500126) (size 0.7112 0.254) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "10" smd rect (at 1.4224 -1.000252) (size 0.7112 0.254) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "11" smd rect (at 0 0) (size 1.7526 2.4892) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (model "library/STBB1_APUR/SON_B1-APUR_STM.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
