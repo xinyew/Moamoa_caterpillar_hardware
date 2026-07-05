@@ -73,7 +73,7 @@
 			(copper_finish "None")
 			(dielectric_constraints no)
 		)
-		(pad_to_mask_clearance 0)
+		(pad_to_mask_clearance 0.1016)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -89,6 +89,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5555f550)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -10635,41 +10636,6 @@
 				(size 0.5 0.5)
 			)
 			(justify left bottom)
-		)
-	)
-	(dimension
-		(type radial)
-		(layer "User.1")
-		(uuid "5829478b-0d8e-4bbd-98bb-a549f2aba65a")
-		(pts
-			(xy 118.2 100) (xy 128 99)
-		)
-		(leader_length 1.255801)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 6)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 0.5)
-			(text_position_mode 2)
-			(extension_offset 0.1)
-			(keep_text_aligned yes)
-		)
-		(gr_text "9.9"
-			(at 134.5 98.872519 0)
-			(layer "User.1")
-			(uuid "5829478b-0d8e-4bbd-98bb-a549f2aba65a")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
 		)
 	)
 	(segment

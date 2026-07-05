@@ -1,0 +1,9 @@
+(version 1)
+(rule "BLE_FEED_CLEARANCE"
+	(condition "A.NetClass == 'BLE_FEEDLINE'")
+	(constraint clearance (min 0.1016mm))
+)
+(rule "component_clearance"
+	(constraint courtyard_clearance (min 0.1016mm))
+	(condition "A.Type == 'Footprint' && B.Type == 'Footprint'")
+)
