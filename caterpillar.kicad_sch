@@ -378,7 +378,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "AN54LQ-P15"
+			(property "Footprint" "AN54LQ-P15:AN54LQ-P15"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9663,7 +9663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "VLCF4020T-2R2N1R7:VLCF4020"
 			(at 137.16 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10325,7 +10325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0137_T833+2_MXM"
+		(property "Footprint" "max5419:21-0137_T833&plus_2_MXM-M"
 			(at 125.73 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -12366,7 +12366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA-14L_2P5X3X0P83_STM"
+		(property "Footprint" "ASM330LHHTR:LGA-14L_2P5X3X0P83_STM-L"
 			(at 212.09 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12572,7 +12572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP_10_9_ADI"
+		(property "Footprint" "ADP2503ACPZ_3_3_R7:CP_10_9_ADI-M"
 			(at 48.26 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12681,7 +12681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON_B1-APUR_STM"
+		(property "Footprint" "STBB1_APUR:SON_B1-APUR_STM-M"
 			(at 144.78 132.08 0)
 			(hide yes)
 			(show_name no)
