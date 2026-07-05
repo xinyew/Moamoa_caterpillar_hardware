@@ -6,4 +6,5 @@
 	(lib (name "STBB1_APUR") (type "KiCad") (uri "${KIPRJMOD}/library/STBB1_APUR/STBB1_APUR.kicad_sym") (options "") (descr "ST buck-boost DC-DC"))
 	(lib (name "ADP2503ACPZ_3_3_R7") (type "KiCad") (uri "${KIPRJMOD}/library/ADP2503ACPZ_3_3_R7/ADP2503ACPZ_3_3_R7.kicad_sym") (options "") (descr "ADI buck-boost 3.3V"))
 	(lib (name "VLCF4020T-2R2N1R7") (type "KiCad") (uri "${KIPRJMOD}/library/VLCF4020T-2R2N1R7/VLCF4020T-2R2N1R7.kicad_sym") (options "") (descr "TDK VLCF4020T 2.2uH power inductor"))
+	(lib (name "SM02B-SRSS-TB") (type "KiCad") (uri "${KIPRJMOD}/library/SM02B-SRSS-TB/SM02B-SRSS-TB.kicad_sym") (options "") (descr "JST SH 2-pin side-entry SMT connector"))
 )
