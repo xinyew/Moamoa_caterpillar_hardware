@@ -1,5 +1,6 @@
 (fp_lib_table
 	(version 7)
+	(lib (name "Logos") (type "KiCad") (uri "${KIPRJMOD}/library/Logos/footprints.pretty") (options "") (descr "silkscreen logos"))
 	(lib (name "AN54LQ-P15") (type "KiCad") (uri "${KIPRJMOD}/library/AN54LQ-P15/footprints.pretty") (options "") (descr "Raytac AN54LQ-P15 nRF54L15 BLE module"))
 	(lib (name "ASM330LHHTR") (type "KiCad") (uri "${KIPRJMOD}/library/ASM330LHHTR/footprints.pretty") (options "") (descr "ST 6-axis IMU"))
 	(lib (name "max5419") (type "KiCad") (uri "${KIPRJMOD}/library/ul_max5419leta-T/footprints.pretty") (options "") (descr "Maxim MAX5419 digital potentiometer"))
