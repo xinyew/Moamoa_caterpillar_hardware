@@ -8,4 +8,5 @@
 	(lib (name "STBB1_APUR") (type "KiCad") (uri "${KIPRJMOD}/library/STBB1_APUR/footprints.pretty") (options "") (descr "ST buck-boost DC-DC"))
 	(lib (name "VLCF4020T-2R2N1R7") (type "KiCad") (uri "${KIPRJMOD}/library/VLCF4020T-2R2N1R7/footprints.pretty") (options "") (descr "TDK VLCF4020T 2.2uH power inductor"))
 	(lib (name "SM02B-SRSS-TB") (type "KiCad") (uri "${KIPRJMOD}/library/SM02B-SRSS-TB/footprints.pretty") (options "") (descr "JST SH 2-pin side-entry SMT connector"))
+	(lib (name "Castellated_2PTH_P1.27mm") (type "KiCad") (uri "${KIPRJMOD}/library/Castellated_2PTH_P1.27mm/footprints.pretty") (options "") (descr "dual joined PTH castellated solder point"))
 )
