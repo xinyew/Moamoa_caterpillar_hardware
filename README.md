@@ -21,10 +21,14 @@ board (vibration robot). Firmware lives in a sibling repo:
 
 | Signal | Pin | Dir | Notes |
 |---|---|---|---|
-| I2C SDA | P1.02 | bidir | Shared bus: IMU + digipot (`i2c20`) |
-| I2C SCL | P1.03 | out | Shared bus |
+| I2C SDA | P1.02 | bidir | Digipot only (`i2c20`) |
+| I2C SCL | P1.03 | out | Digipot only |
 | IMU INT1 | P1.04 | in | ASM330LHHTR data-ready |
 | IMU INT2 | P1.05 | in | ASM330LHHTR secondary interrupt |
+| SPI CS | P1.09 | out | ASM330LHHTR chip select, active-low |
+| SPI SCLK | P1.10 | out | IMU SPI clock |
+| SPI MOSI | P1.13 | out | IMU SPI data out (U2 SDI) |
+| SPI MISO | P1.14 | in | IMU SPI data in (U2 SDO) |
 | DRV8212 ~SLEEP | P1.06 | out | Active-low sleep (LOW = sleep) |
 | PWM IN1 | P1.07 | out | Motor driver channel 1 (`pwm20`) |
 | PWM IN2 | P1.08 | out | Motor driver channel 2 |
