@@ -53,7 +53,7 @@
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -784,7 +784,7 @@
         "uuid": "a969b3ee-d06f-4ef9-b123-2135edf2739c"
       }
     ],
-    "used_designators": "R5-7,R9,J2-6,#PWR7,#PWR10,#PWR19,#PWR27,#PWR30,#PWR35-37,#PWR48,#PWR66,C3,C6,C13",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
