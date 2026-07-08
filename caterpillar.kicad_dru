@@ -7,3 +7,7 @@
 	(constraint courtyard_clearance (min 0.1016mm))
 	(condition "A.Type == 'Footprint' && B.Type == 'Footprint'")
 )
+(rule "edge_copper_by_design"
+	(condition "A.memberOfFootprint('J3') || A.memberOfFootprint('J4') || A.memberOfFootprint('J2')")
+	(constraint edge_clearance (min -1mm))
+)
