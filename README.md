@@ -29,6 +29,7 @@ board (vibration robot). Firmware lives in a sibling repo:
 | SPI SCLK | P1.10 | out | IMU SPI clock |
 | SPI MOSI | P1.13 | out | IMU SPI data out (U2 SDI) |
 | SPI MISO | P1.14 | in | IMU SPI data in (U2 SDO) |
+| STATUS LED | P0.01 | out | Blue LED via 470R, active-high |
 | DRV8212 ~SLEEP | P1.06 | out | Active-low sleep (LOW = sleep) |
 | PWM IN1 | P1.07 | out | Motor driver channel 1 (`pwm20`) |
 | PWM IN2 | P1.08 | out | Motor driver channel 2 |
