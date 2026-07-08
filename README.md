@@ -7,33 +7,33 @@ board (vibration robot). Firmware lives in a sibling repo:
 
 ## Board overview
 
-| Subsystem | IC | Interface | Purpose |
-|---|---|---|---|
-| MCU + BLE | Raytac AN54LQ-P15 (nRF54L15) | — | Application core + BLE remote control |
-| Motor driver | DRV8212P | PWM + GPIO | Dual-channel motor control |
-| Digital pot | MAX5419LETA | I2C `0x28` | Adjusts motor supply voltage via STBB1-APUR |
-| Buck-boost | STBB1-APUR | GPIO enable | Motor supply rail |
-| Buck-boost | ADP2503 (3.3 V) | — | Logic supply rail |
-| IMU | ASM330LHHTR | SPI | 6-axis accel/gyro |
-| Inductor | TDK VLCF4020T-2R2N1R7 | — | 2.2 µH power inductor |
+| Subsystem    | IC                           | Interface   | Purpose                                     |
+| ------------ | ---------------------------- | ----------- | ------------------------------------------- |
+| MCU + BLE    | Raytac AN54LQ-P15 (nRF54L15) | —          | Application core + BLE remote control       |
+| Motor driver | DRV8212P                     | PWM + GPIO  | Dual-channel motor control                  |
+| Digital pot  | MAX5419LETA                  | I2C`0x28` | Adjusts motor supply voltage via STBB1-APUR |
+| Buck-boost   | STBB1-APUR                   | GPIO enable | Motor supply rail                           |
+| Buck-boost   | ADP2503 (3.3 V)              | —          | Logic supply rail                           |
+| IMU          | ASM330LHHTR                  | SPI         | 6-axis accel/gyro                           |
+| Inductor     | TDK VLCF4020T-2R2N1R7        | —          | 2.2 µH power inductor                      |
 
 ## Pin map (must stay in sync with firmware)
 
-| Signal | Pin | Dir | Notes |
-|---|---|---|---|
-| I2C SDA | P1.02 | bidir | Digipot only (`i2c20`) |
-| I2C SCL | P1.03 | out | Digipot only |
-| IMU INT1 | P1.04 | in | ASM330LHHTR data-ready |
-| IMU INT2 | P1.05 | in | ASM330LHHTR secondary interrupt |
-| SPI CS | P1.09 | out | ASM330LHHTR chip select, active-low |
-| SPI SCLK | P1.10 | out | IMU SPI clock |
-| SPI MOSI | P1.13 | out | IMU SPI data out (U2 SDI) |
-| SPI MISO | P1.14 | in | IMU SPI data in (U2 SDO) |
-| STATUS LED | P0.01 | out | Blue LED via 470R, active-high |
-| DRV8212 ~SLEEP | P1.06 | out | Active-low sleep (LOW = sleep) |
-| PWM IN1 | P1.07 | out | Motor driver channel 1 (`pwm20`) |
-| PWM IN2 | P1.08 | out | Motor driver channel 2 |
-| DCDC EN | P2.03 | out | STBB1-APUR enable, active-high |
+| Signal         | Pin   | Dir   | Notes                               |
+| -------------- | ----- | ----- | ----------------------------------- |
+| I2C SDA        | P1.02 | bidir | Digipot only (`i2c20`)            |
+| I2C SCL        | P1.03 | out   | Digipot only                        |
+| IMU INT1       | P1.04 | in    | ASM330LHHTR data-ready              |
+| IMU INT2       | P1.05 | in    | ASM330LHHTR secondary interrupt     |
+| SPI CS         | P1.09 | out   | ASM330LHHTR chip select, active-low |
+| SPI SCLK       | P1.10 | out   | IMU SPI clock                       |
+| SPI MOSI       | P1.13 | out   | IMU SPI data out (U2 SDI)           |
+| SPI MISO       | P1.14 | in    | IMU SPI data in (U2 SDO)            |
+| STATUS LED     | P0.01 | out   | Blue LED via 470R, active-high      |
+| DRV8212 ~SLEEP | P1.06 | out   | Active-low sleep (LOW = sleep)      |
+| PWM IN1        | P1.07 | out   | Motor driver channel 1 (`pwm20`)  |
+| PWM IN2        | P1.08 | out   | Motor driver channel 2              |
+| DCDC EN        | P2.03 | out   | STBB1-APUR enable, active-high      |
 
 If you change any of these nets, update the devicetree in the firmware repo
 (`boards/kamoamoa/caterpillar/`) and this table.
@@ -96,9 +96,4 @@ Conventions:
 
 ## Notes
 
-- The AN54LQ-P15 module's symbol and footprint are **embedded** in the design files
-  (no standalone library source in `library/`); to re-place or edit it, export it
-  from the board via the Footprint Editor first.
-- `Logos:kamoamoa` and `Kicad_library:Personal_small` footprints come from global
-  (machine-level) libraries, not this repo; they are embedded in the board file.
-- Fab history: boards ordered via PCBWay (production zips not tracked in git).
+- Fab history: boards to be ordered.
