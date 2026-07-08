@@ -14,7 +14,7 @@ board (vibration robot). Firmware lives in a sibling repo:
 | Digital pot | MAX5419LETA | I2C `0x28` | Adjusts motor supply voltage via STBB1-APUR |
 | Buck-boost | STBB1-APUR | GPIO enable | Motor supply rail |
 | Buck-boost | ADP2503 (3.3 V) | — | Logic supply rail |
-| IMU | ASM330LHHTR | I2C `0x6A` | 6-axis accel/gyro |
+| IMU | ASM330LHHTR | SPI | 6-axis accel/gyro |
 | Inductor | TDK VLCF4020T-2R2N1R7 | — | 2.2 µH power inductor |
 
 ## Pin map (must stay in sync with firmware)
